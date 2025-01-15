@@ -1,4 +1,4 @@
-# SAN Context 
+# SAN 
   ### After completing this reading, all should be able to:
   1. Understand what a SAN is
   2. Explain what a Fibre Channel Fabric is
@@ -57,7 +57,8 @@ No prerequisets needed
       - WWN
           - Both Port WWN (WWPN) and Node WWN (WWNN) are supported
       - Domain / Port
-      ![image](https://github.com/user-attachments/assets/9ac53665-08f0-47bc-867a-9a4d9ee4d92a)
+    
+  ![image](https://github.com/user-attachments/assets/9ac53665-08f0-47bc-867a-9a4d9ee4d92a)
 
 * Advanced Switch Features and Tools
   - Access Gateway (AG)
@@ -67,7 +68,8 @@ No prerequisets needed
       - Fibre Channel over IP (FCIP)
   - Fibre Channel Routing (FCR)
   - Virtual Fabrics (VF)
-      ![image](https://github.com/user-attachments/assets/b9ffe2d4-aa70-480e-b185-d17b16593c4f)
+
+     ![image](https://github.com/user-attachments/assets/b9ffe2d4-aa70-480e-b185-d17b16593c4f)
 
 
 ## 2. Fibre Channel Topologies
@@ -92,9 +94,11 @@ No prerequisets needed
         - Availability and scalability
         - Lower performnce with more then two swithces / directors in s fabric.
     - Recommended solution for two switch or director fabrics.
-      ![image](https://github.com/user-attachments/assets/63285251-0c6b-4b95-9e33-8fce8f99414a)
+      
+   ![image](https://github.com/user-attachments/assets/63285251-0c6b-4b95-9e33-8fce8f99414a)
 
-  * Ring: A variation on the Cascade topology
+
+   * Ring: A variation on the Cascade topology
     - Pro:
         - Same as Cascade but with better performance and availability.
     - Con:
@@ -111,7 +115,8 @@ No prerequisets needed
         - Lower user port availability due to increased ISL count
     - Recommneded for solution with no plans for growth and four switches per fabric.
         - Higher-port count switches and directors make mesh-based topologies more scalable.
-      ![image](https://github.com/user-attachments/assets/e5ec6457-f377-4140-b3b9-27700c905035)
+
+     ![image](https://github.com/user-attachments/assets/e5ec6457-f377-4140-b3b9-27700c905035)
 
 
   * Core/Edge: Specializes the role o the switches and directors
